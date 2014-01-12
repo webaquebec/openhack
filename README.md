@@ -1,6 +1,6 @@
 ## Quick start
 
-Our website is a plain HTML page backed by a bit of JS for the custom scrolling.
+This website is a plain HTML page backed by CSS Bootstrap & Font Awesome for icons.
 
     open index.html
 
