@@ -1,29 +1,198 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg width="117px" height="111px" viewBox="0 0 117 111" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+<svg width="117px" height="111px" viewBox="0 0 117 111" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <title>ohq_logo</title>
-    <description>Created with Sketch (http://www.bohemiancoding.com/sketch)</description>
     <defs></defs>
-    <g id="Site" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
-        <g id="Landscape" sketch:type="MSArtboardGroup" transform="translate(-171.000000, -103.000000)">
-            <g id="Header" sketch:type="MSLayerGroup">
-                <g id="Logo" transform="translate(171.500000, 105.000000)" sketch:type="MSShapeGroup">
+    <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Landscape" transform="translate(-171.000000, -103.000000)">
+            <g id="Header">
+                <g id="Logo" transform="translate(171.500000, 105.000000)">
                     <path d="M29.8030034,5.60064359 L29.8030034,98.8610169" id="Line" stroke="#00A0E7" stroke-width="4"></path>
                     <path d="M3.04798163,52.8051487 L110.079122,52.8051487" id="Line" stroke="#D8D8D8" stroke-width="4"></path>
                     <path d="M56.204869,71.2920544 L84.2223065,99.3094919" id="Line" stroke="#00A0E7" stroke-width="4" stroke-linecap="square"></path>
                     <path d="M29.8030034,52.8051487 L83.0222176,52.8051487" id="Line" stroke="#00A0E7" stroke-width="4" stroke-linecap="square"></path>
                     <path d="M83.2367849,6.22927632 L83.2367849,99.4896496" id="Line" stroke="#00A0E7" stroke-width="4"></path>
-                    <g id="Rond">
-                        <ellipse id="Oval-1" stroke="#00A0E7" stroke-width="4" cx="57.5935621" cy="53.4706154" rx="53.4337815" ry="53.4337815"></ellipse>
-                        <ellipse id="Oval-2" fill="#D25643" cx="111.267992" cy="53.4337815" rx="4.40042906" ry="4.40042906"></ellipse>
-                        <ellipse id="Oval-2" fill="#D25643" cx="83.267992" cy="53.4337815" rx="4.40042906" ry="4.40042906"></ellipse>
-                        <ellipse id="Oval-2" fill="#D25643" cx="29.267992" cy="53.4337815" rx="4.40042906" ry="4.40042906"></ellipse>
-                        <ellipse id="Oval-2" fill="#D25643" cx="55.8923341" cy="71.6081522" rx="4.40042906" ry="4.40042906"></ellipse>
-                        <ellipse id="Oval-2" fill="#D25643" cx="4.40042906" cy="53.4337815" rx="4.40042906" ry="4.40042906"></ellipse>
-                        <ellipse id="Oval-2" fill="#D25643" transform="translate(29.117320, 7.158769) rotate(-120.000000) translate(-29.117320, -7.158769) " cx="29.1173198" cy="7.1587693" rx="4.40042906" ry="4.40042906"></ellipse>
-                        <ellipse id="Oval-2" fill="#D25643" transform="translate(84.551101, 99.708794) rotate(-120.000000) translate(-84.551101, -99.708794) " cx="84.5511013" cy="99.7087936" rx="4.40042906" ry="4.40042906"></ellipse>
-                        <ellipse id="Oval-2" fill="#D25643" transform="translate(84.551101, 7.158769) rotate(-60.000000) translate(-84.551101, -7.158769) " cx="84.5511013" cy="7.1587693" rx="4.40042906" ry="4.40042906"></ellipse>
-                        <ellipse id="Oval-2" fill="#D25643" transform="translate(29.117320, 99.708794) rotate(-60.000000) translate(-29.117320, -99.708794) " cx="29.1173198" cy="99.7087936" rx="4.40042906" ry="4.40042906"></ellipse>
-                    </g>
+                    <ellipse id="Oval-1" stroke="#00A0E7" stroke-width="4" cx="57.5935621" cy="53.4706154" rx="53.4337815" ry="53.4337815"></ellipse>
+
+                    <circle fill="#D25643" cx="29.1173198" cy="7.1587693" r="4.40042906">
+                        <animate
+                            attributeName="r"
+                            from="4.40042906"
+                            to="4.40042906"
+                            begin="0s"
+                            dur="5s"
+                            values="4.40042906;5;5;4;4;4.40042906;4.40042906"
+                            keySplines="
+                                0.1 0.8 0.2 1;
+                                0.1 0.8 0.2 1;
+                                0.1 0.8 0.2 1;
+                                0.1 0.8 0.2 1;
+                                0.1 0.8 0.2 1;
+                                0.1 0.8 0.2 1"
+                            keyTimes="0;0.22;0.33;0.55;0.66;0.88;1"
+                            calcMode="spline"
+                            repeatCount="indefinite"
+                        />
+                    </circle>
+                    <circle fill="#D25643" cx="84.5511013" cy="99.7087936" r="4.40042906">
+                        <animate
+                            attributeName="r"
+                            from="4.40042906"
+                            to="4.40042906"
+                            begin="0s"
+                            dur="7s"
+                            values="4.40042906;5;5;4;4;4.40042906;4.40042906"
+                            keySplines="
+                                0.1 0.8 0.2 1;
+                                0.1 0.8 0.2 1;
+                                0.1 0.8 0.2 1;
+                                0.1 0.8 0.2 1;
+                                0.1 0.8 0.2 1;
+                                0.1 0.8 0.2 1"
+                            keyTimes="0;0.22;0.33;0.55;0.66;0.88;1"
+                            calcMode="spline"
+                            repeatCount="indefinite"
+                        />
+                    </circle>
+                    <circle fill="#D25643" cx="84.5511013" cy="7.1587693" r="4.40042906">
+                        <animate
+                            attributeName="r"
+                            from="5"
+                            to="5"
+                            begin="0s"
+                            dur="6s"
+                            values="5;4;4;4.40042906;4.40042906;4.40042906;5"
+                            keySplines="
+                                0.1 0.8 0.2 1;
+                                0.1 0.8 0.2 1;
+                                0.1 0.8 0.2 1;
+                                0.1 0.8 0.2 1;
+                                0.1 0.8 0.2 1;
+                                0.1 0.8 0.2 1"
+                            keyTimes="0;0.22;0.33;0.55;0.66;0.88;1"
+                            calcMode="spline"
+                            repeatCount="indefinite"
+                        />
+                    </circle>
+                    <circle fill="#D25643" cx="29.1173198" cy="99.7087936" r="4.40042906">
+                        <animate
+                            attributeName="r"
+                            from="4"
+                            to="4"
+                            begin="0s"
+                            dur="8s"
+                            values="4;4.40042906;5;5;4.40042906;4.40042906;4"
+                            keySplines="
+                                0.1 0.8 0.2 1;
+                                0.1 0.8 0.2 1;
+                                0.1 0.8 0.2 1;
+                                0.1 0.8 0.2 1;
+                                0.1 0.8 0.2 1;
+                                0.1 0.8 0.2 1"
+                            keyTimes="0;0.22;0.33;0.55;0.66;0.88;1"
+                            calcMode="spline"
+                            repeatCount="indefinite"
+                        />
+                    </circle>
+                    <circle fill="#D25643" cx="111.267992" cy="53.4337815" r="4.40042906">
+                        <animate
+                            attributeName="r"
+                            from="4.40042906"
+                            to="4.40042906"
+                            begin="0s"
+                            dur="6.4s"
+                            values="4.40042906;5;5;4;4;4.40042906;4.40042906"
+                            keySplines="
+                                0.1 0.8 0.2 1;
+                                0.1 0.8 0.2 1;
+                                0.1 0.8 0.2 1;
+                                0.1 0.8 0.2 1;
+                                0.1 0.8 0.2 1;
+                                0.1 0.8 0.2 1"
+                            keyTimes="0;0.22;0.33;0.55;0.66;0.88;1"
+                            calcMode="spline"
+                            repeatCount="indefinite"
+                        />
+                    </circle>
+                    <circle fill="#D25643" cx="83.267992" cy="53.4337815" r="4.40042906">
+                        <animate
+                            attributeName="r"
+                            from="5"
+                            to="5"
+                            begin="0s"
+                            dur="5.5s"
+                            values="5;4;4;4.40042906;4.40042906;4.40042906;5"
+                            keySplines="
+                                0.1 0.8 0.2 1;
+                                0.1 0.8 0.2 1;
+                                0.1 0.8 0.2 1;
+                                0.1 0.8 0.2 1;
+                                0.1 0.8 0.2 1;
+                                0.1 0.8 0.2 1"
+                            keyTimes="0;0.22;0.33;0.55;0.66;0.88;1"
+                            calcMode="spline"
+                            repeatCount="indefinite"
+                        />
+                    </circle>
+                    <circle fill="#D25643" cx="29.267992" cy="53.4337815" r="4.40042906">
+                        <animate
+                            attributeName="r"
+                            from="4"
+                            to="4"
+                            begin="0s"
+                            dur="5.8s"
+                            values="4;4.40042906;4.40042906;4.40042906;5;5;4"
+                            keySplines="
+                                0.1 0.8 0.2 1;
+                                0.1 0.8 0.2 1;
+                                0.1 0.8 0.2 1;
+                                0.1 0.8 0.2 1;
+                                0.1 0.8 0.2 1;
+                                0.1 0.8 0.2 1"
+                            keyTimes="0;0.22;0.33;0.55;0.66;0.88;1"
+                            calcMode="spline"
+                            repeatCount="indefinite"
+                        />
+                    </circle>
+                    <circle fill="#D25643" cx="55.8923341" cy="71.6081522" r="4.40042906">
+                        <animate
+                            attributeName="r"
+                            from="5"
+                            to="5"
+                            begin="0s"
+                            dur="7.5s"
+                            values="5;4;4;4.40042906;4.40042906;4.40042906;5"
+                            keySplines="
+                                0.1 0.8 0.2 1;
+                                0.1 0.8 0.2 1;
+                                0.1 0.8 0.2 1;
+                                0.1 0.8 0.2 1;
+                                0.1 0.8 0.2 1;
+                                0.1 0.8 0.2 1"
+                            keyTimes="0;0.22;0.33;0.55;0.66;0.88;1"
+                            calcMode="spline"
+                            repeatCount="indefinite"
+                        />
+                    </circle>
+                    <circle fill="#D25643" cx="4.40042906" cy="53.4337815" r="4.40042906">
+                        <animate
+                            attributeName="r"
+                            from="4"
+                            to="4"
+                            begin="0s"
+                            dur="7.1s"
+                            values="4;4.40042906;4.40042906;4.40042906;5;5;4"
+                            keySplines="
+                                0.1 0.8 0.2 1;
+                                0.1 0.8 0.2 1;
+                                0.1 0.8 0.2 1;
+                                0.1 0.8 0.2 1;
+                                0.1 0.8 0.2 1;
+                                0.1 0.8 0.2 1"
+                            keyTimes="0;0.22;0.33;0.55;0.66;0.88;1"
+                            calcMode="spline"
+                            repeatCount="indefinite"
+                        />
+                    </circle>
                 </g>
             </g>
         </g>
