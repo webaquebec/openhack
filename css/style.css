@@ -1,0 +1,197 @@
+*, *:before, *:after { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+body {
+  color: #363636;
+  font-family: 'Open Sans', helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  margin: 0;
+}
+
+a {
+  color: #006A99;
+  text-decoration: none;
+}
+a:hover { text-decoration: underline;}
+
+section{ margin-top: 3em; }
+.header + section { margin-top: 0;}
+section:last-child { padding-bottom: 3em;}
+
+.inner,
+h2 > span
+{
+  padding: 0 40px;
+  max-width: 55em;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+p{  max-width: 42em; }
+
+.focus{
+  font-size: 1.275em;
+}
+
+.header{
+  background-color: #E3F4F7;
+  margin: 0;
+  overflow: hidden;
+  padding: 45px 0;
+  position: relative;
+}
+
+.header .logo{
+  height: auto;
+  margin-right: 1em;
+  vertical-align: middle;
+  width: 116px;
+}
+
+.header h1{
+  color: #D25643;
+  font-size: 2.375em;
+  margin: 0;
+}
+
+.header h1 span{
+  font-weight: normal;
+  line-height: 0.875em;
+}
+
+.header .intro {
+  display: inline-block;
+  padding-top: 1em;
+  vertical-align: middle;
+}
+
+h2 {
+  background-color: #D25643;
+  color: white;
+  font-size: 1em;
+  font-weight: 300;
+  padding: 10px;
+  margin: 0 0 2.2em;
+}
+
+h2 span {
+  display:block;
+}
+
+.samedi,
+.dimanche {
+  display: inline-block;
+  max-width: 47%;
+  overflow: hidden;
+  padding: 0;
+  position: relative;
+  vertical-align: top;
+}
+
+.samedi:before,
+.dimanche:before {
+  background-color: #D8D8D8;
+  content: "";
+  display: block;
+  height: 100%;
+  width: 4px;
+  position: absolute;
+  margin-left: -2px;
+  top: 5em;
+  left: 50%;
+  z-index: -1;
+}
+
+.samedi{
+  margin-right: 5%;
+}
+
+.samedi h3,
+.dimanche h3{
+  color: #00A0E7;
+  text-align: center;
+}
+
+.pres {
+  background: #E3F4F7;
+  border: 4px solid #A6D9F0;
+  border-radius: 6px;
+  margin-bottom: 30px;
+  padding: 14px 18px;
+}
+
+.pres:last-child { margin-bottom: 0; }
+
+.pres h4 {
+  border-bottom: 2px solid #A6D9F0;
+  font-size:1.25em;
+  margin: 0 0 0.25em;
+  padding-bottom: 0.25em;
+}
+
+.pres h4 > a{
+  color: #D25643;
+}
+
+.pres h4 .presentateur{
+  display: inline-block;
+  font-size: 0.65em;
+  font-style: italic;
+  font-weight: normal;
+}
+
+.pres p {
+  font-size: 0.875em;
+}
+
+/* Media queries and stuff */
+
+@media only screen and (max-width: 920px) {
+
+  .header h1 {
+    display: inline-block;
+    max-width: 100%;
+  }
+
+  .header .intro {
+    display: block;
+    max-width: 100%;
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 650px) {
+
+  .header h1 { font-size: 2em; }
+
+  .samedi, .dimanche {
+    display: block;
+    max-width: 100%;
+    width: auto;
+  }
+
+}
+
+@media only screen and (max-width: 550px) {
+
+  .header h1 {
+    font-size: 1.5em;
+  }
+
+  .header .logo {
+    margin-right: 0.5em;
+    width: 60px;
+  }
+  .inner, h2 > span { padding: 0 20px; }
+}
+
+@media only screen and (max-width: 430px) {
+  body{ font-size: 15px; }
+  .header .logo{
+    margin: -0.25em 0 0;
+    width: 40px;
+  }
+}
+
+@media only screen and (min-width: 1220px) { body { font-size: 18px; } }
+@media only screen and (min-width: 1600px) { body { font-size: 24px; } }
