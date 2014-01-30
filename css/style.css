@@ -144,6 +144,32 @@ h2 span {
   font-size: 0.875em;
 }
 
+.contribuer {
+  background-color: #D25643;
+  background-color: rgba(210,86,66,0.80);
+  border-radius: 4px;
+  color: #F9EBE8;
+  display: block;
+  font-size: 0.75em;
+  padding: 0.5em 0.75em;
+  right: 0.75em;
+  position: absolute;
+  text-shadow: 0 -1px 1px #A24537;
+  top: 0.75em;
+
+  -webkit-animation: fade-in 1s;
+  -ms-animation: fade-in 1s;
+  animation: fade-in 1s;
+}
+
+.contribuer:hover {
+  background-color: #E26653;
+  background-color: rgba(210,86,66,1);
+  border-color: white;
+  color: white;
+  text-decoration: none;
+}
+
 /* Media queries and stuff */
 
 @media only screen and (max-width: 920px) {
@@ -183,6 +209,14 @@ h2 span {
     width: 60px;
   }
   .inner, h2 > span { padding: 0 20px; }
+
+  .contribuer {
+    border-radius: 0;
+    border-bottom-left-radius: 4px;
+    padding: 0.25em 0.5em;
+    right: 0;
+    top: 0;
+  }
 }
 
 @media only screen and (max-width: 430px) {
@@ -195,3 +229,9 @@ h2 span {
 
 @media only screen and (min-width: 1220px) { body { font-size: 18px; } }
 @media only screen and (min-width: 1600px) { body { font-size: 24px; } }
+
+/* Maaaaagic */
+
+@-webkit-keyframes fade-in { 0% { opacity: 0; } 33% { opacity: 0; } 100% { opacity: 1; } }​
+@-ms-keyframes fade-in { 0% { opacity: 0; } 33% { opacity: 0; } 100% { opacity: 1; } }​
+@keyframes fade-in { 0% { opacity: 0; } 33% { opacity: 0; } 100% { opacity: 1; } }​
