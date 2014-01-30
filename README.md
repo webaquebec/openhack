@@ -1,14 +1,12 @@
 ## Quick start
 
-This website is a plain HTML page backed by CSS Bootstrap & Font Awesome for icons.
+This website is a plain HTML page.
 
     open index.html
 
 # Deployment
 
-This is a Github project page, so just push to gh-pages :
-
-    git push origin master:gh-pages
+This is a Github project page. The `gh-pages` branch is what appears online. It has been set as the default branch for this repo.
 
 # Contributing
 
