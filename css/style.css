@@ -78,8 +78,8 @@ h2 span {
   display:block;
 }
 
-.samedi,
-.dimanche {
+.projets,
+.presentations {
   display: inline-block;
   max-width: 47%;
   overflow: hidden;
@@ -88,59 +88,53 @@ h2 span {
   vertical-align: top;
 }
 
-.samedi:before,
-.dimanche:before {
-  background-color: #D8D8D8;
-  content: "";
-  display: block;
-  height: 100%;
-  width: 4px;
-  position: absolute;
-  margin-left: -2px;
-  top: 5em;
-  left: 50%;
-  z-index: -1;
-}
-
-.samedi{
+.projets{
   margin-right: 5%;
 }
 
-.samedi h3,
-.dimanche h3{
-  color: #00A0E7;
+.projets h3,
+.presentations h3{
+  color: #006A99;
   text-align: center;
 }
 
-.pres {
+.projets h3 { color: #D25643; }
+
+.activite {
   background: #E3F4F7;
   border: 4px solid #A6D9F0;
   border-radius: 6px;
-  margin-bottom: 30px;
+  margin-bottom: 1em;
   padding: 14px 18px;
 }
 
-.pres:last-child { margin-bottom: 0; }
+.presentations .activite{
+  background-color: #EBF1F3;
+  border-color: #C8DAE3;
+}
 
-.pres h4 {
+.presentations .activite h4 { border-bottom-color: #C8DAE3; }
+
+.activite:last-child { margin-bottom: 0; }
+
+.activite h4 {
   border-bottom: 2px solid #A6D9F0;
   font-size:1.25em;
   margin: 0 0 0.25em;
   padding-bottom: 0.25em;
 }
 
-.pres h4 > a{
-  color: #D25643;
-}
+.projets .activite h4 > a{ color: #D25643; }
+.presentations .activite h4 > a { color: #006A99; }
 
-.pres h4 .presentateur{
+.activite h4 .presentateur{
   display: inline-block;
   font-size: 0.65em;
   font-style: italic;
   font-weight: normal;
 }
 
-.pres p {
+.activite p {
   font-size: 0.875em;
 }
 
@@ -190,7 +184,7 @@ h2 span {
 
   .header h1 { font-size: 2em; }
 
-  .samedi, .dimanche {
+  .projets, .presentations {
     display: block;
     max-width: 100%;
     width: auto;
