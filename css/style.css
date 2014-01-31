@@ -134,6 +134,25 @@ h2 span {
   font-weight: normal;
 }
 
+.activite .samedi,
+.activite .dimanche {
+  border-radius: 2px;
+  display: inline-block;
+  margin-right: 0.25em;
+  padding: 0.25em 0.65em;
+  font-size: 0.8em;
+}
+
+.activite .samedi{
+  background-color: #F5BBB2;
+  color: #AF3B2A;
+}
+
+.activite .dimanche{
+  background-color: #ADDFF4;
+  color: #006A99;
+}
+
 .activite p {
   font-size: 0.875em;
 }
