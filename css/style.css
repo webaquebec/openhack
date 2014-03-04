@@ -14,6 +14,10 @@ a {
 }
 a:hover { text-decoration: underline;}
 
+.unbreakable {
+  white-space: nowrap;
+}
+
 section{ margin-top: 3em; }
 .header + section { margin-top: 0;}
 section:last-child { padding-bottom: 3em;}
