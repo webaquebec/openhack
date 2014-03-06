@@ -58,6 +58,10 @@ p{  max-width: 42em; }
   margin: 0;
 }
 
+.header a { color: inherit; transition: padding-left 0.4s ease-out; }
+.header a:hover { color: #BE4937; text-decoration: none; padding-left: 6px; transition: padding-left 0.15s ease-out; }
+
+
 .header h1 span{
   font-weight: normal;
   line-height: 0.875em;
@@ -111,6 +115,8 @@ h2 span {
   margin-bottom: 1em;
   padding: 14px 18px;
 }
+
+.inner.activite{ margin: 1em ;}
 
 .presentations .activite{
   background-color: #EBF1F3;
@@ -226,6 +232,8 @@ h2 span {
     width: 60px;
   }
   .inner, h2 > span { padding: 0 20px; }
+
+  .inner.activite { padding: 14px 20px; }
 
   .contribuer {
     border-radius: 0;
