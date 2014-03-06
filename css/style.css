@@ -116,9 +116,9 @@ h2 span {
   padding: 14px 18px;
 }
 
-.inner.activite{ margin: 1em ;}
+.inner.activite { margin: 1em auto ; max-width: 55em;}
 
-.presentations .activite{
+.presentations .activite {
   background-color: #EBF1F3;
   border-color: #C8DAE3;
 }
@@ -137,7 +137,7 @@ h2 span {
 .projets .activite h4 > a{ color: #D25643; }
 .presentations .activite h4 > a { color: #006A99; }
 
-.activite h4 .presentateur{
+.activite h4 .presentateur {
   display: inline-block;
   font-size: 0.65em;
   font-style: italic;
@@ -207,6 +207,8 @@ h2 span {
     max-width: 100%;
     width: 100%;
   }
+
+  .inner.activite { margin: 1em;}
 }
 
 @media only screen and (max-width: 650px) {
